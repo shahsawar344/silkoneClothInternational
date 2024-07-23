@@ -16,7 +16,8 @@ const HeaderIcon = ({
   onPress,
   marginLeft,
   iconName,
-  buttonThird,noIcon
+  buttonThird,
+  noIcon,
 }) => {
   const navigation = useNavigation();
   return (
@@ -26,7 +27,7 @@ const HeaderIcon = ({
         GlobalStyle.shadow,
         {
           paddingVertical: Platform.OS == 'android' && responsiveHeight(2),
-          backgroundColor: 'white',
+          backgroundColor: 'rgb(168,228,234)',
           paddingHorizontal: responsiveWidth(5),
           // marginBottom: marginBottom ? marginBottom : responsiveHeight(6.5),
         },

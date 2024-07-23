@@ -50,7 +50,7 @@ const CustomButton = ({
       style={[
         style,
         {
-          borderRadius: borderRadius ? borderRadius : responsiveHeight(1.8),
+          borderRadius: borderRadius ? borderRadius : responsiveHeight(5),
           borderColor: borderColor ? borderColor : '#00000020',
           backgroundColor: buttonColor ? buttonColor : GlobalColor.buttonColor,
           height: heightButton,

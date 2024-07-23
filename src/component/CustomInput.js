@@ -54,7 +54,8 @@ const CustomInput = ({
         <View style={GlobalStyle.flexJustify}>
           <Text
             style={{
-              color: colorText ? colorText : GlobalColor.textColor,
+              color: colorText ? colorText : 'black',
+              fontFamily: 'Poppins-Regular',
             }}>
             {titleName}
           </Text>
@@ -84,7 +85,7 @@ const CustomInput = ({
         autoCapitalize={autoCapitalize ? autoCapitalize : 'none'}
         contentStyle={{height: height ? height : responsiveHeight(5)}}
         outlineStyle={{
-          borderRadius: borderRadius ? borderRadius : responsiveHeight(0.9),
+          borderRadius: borderRadius ? borderRadius : responsiveHeight(3),
           borderColor: '#00000009',
           height: height ? height : responsiveHeight(5),
         }}
@@ -94,7 +95,7 @@ const CustomInput = ({
         style={[
           style,
           {
-            backgroundColor: bgColor ? bgColor : '#dbdcdd',
+            backgroundColor: bgColor ? bgColor : 'white',
             // marginVertical: marginVertical ? marginVertical : 5,
             // paddingVertical: paddingVertical ? paddingVertical : 0,
             fontWeight: fontWeight ? fontWeight : '500',

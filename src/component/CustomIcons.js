@@ -3,7 +3,7 @@ import React from 'react';
 import Icon from 'react-native-vector-icons/Ionicons';
 import Fontis from 'react-native-vector-icons/Fontisto';
 
-export const Ionicons = ({onPress, size, style,iconName, color, disabled}) => {
+export const Ionicons = ({onPress, size, style, iconName, color, disabled}) => {
   return (
     <TouchableOpacity style={style} onPress={onPress} disabled={disabled}>
       <Icon

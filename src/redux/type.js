@@ -1,6 +1,6 @@
 export const User_id = 'User_id';
 export const Token = 'Token';
-export const select_country = 'select_country';
+export const collectData = 'collectData';
 export const select_City = 'select_City';
 export const category_Id = 'category_Id';
 export const category_name = 'category_name';

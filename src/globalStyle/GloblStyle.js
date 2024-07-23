@@ -10,6 +10,7 @@ export const GlobalStyle = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  absoluteStyle: {position: 'absolute',},
   flexData: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -24,7 +25,11 @@ export const GlobalStyle = StyleSheet.create({
   },
   mainContainer: {
     flex: 1,
-    backgroundColor: 'white',
+    backgroundColor: 'rgb(186,228,234)',
+  },
+  container: {
+    flex: 1,
+    paddingHorizontal: responsiveWidth(5),
   },
   flexEnd: {
     flex: 1,
